@@ -1,0 +1,32 @@
+# 忽略 Python 缓存文件
+**/__pycache__/
+**/__pycache__/*
+.pytest_cache/
+
+# 忽略数据库文件
+db.sqlite3
+
+# 忽略测试和覆盖率报告
+.coverage
+coverage-reports/
+xunit-reports/
+
+# 忽略迁移文件的缓存
+**/migrations/__pycache__/
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+
+# 忽略 macOS 系统文件
+.DS_Store
+
+# 忽略 CI/CD 配置文件（如果不需要上传）
+.gitlab-ci.yml
+
+# 忽略 Docker 构建相关文件（如果不需要上传）
+.dockerignore
+
+# 忽略其他不必要的文件
+README.md
+
